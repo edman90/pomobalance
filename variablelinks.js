@@ -4,5 +4,5 @@ const headerMain = document.querySelector("#headermain"),
     cancelBox = document.querySelector("#CancelBox"),
     videoBox = document.querySelector("#vidBox"),
     selBox = document.querySelector("#selectBox"),
-    timeBox = document.querySelector("#timeButtonBox")
+    timeBox = document.querySelector("#timeButtonBox"),
     breakTime = document.querySelector(".take-break");
