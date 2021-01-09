@@ -7,6 +7,16 @@ function startCountdown(minutesChosen) {
         let displayMinutes = Math.floor(timeSec / 60);
 
         countdownBox.innerHTML = `${displayMinutes} : ${displaySeconds}`;
+        timeSec--;
+
+        if(timeSec < 0){
+            clearInterval(setCdInterval);
+        }
+
+        cancelBox.addEventListener("click", (evt) => {
+            clearInterval(setCdInterval);
+            renderBac
+        })
     }
     )
 
