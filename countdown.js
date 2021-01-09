@@ -15,9 +15,10 @@ function startCountdown(minutesChosen) {
 
         cancelBox.addEventListener("click", (evt) => {
             clearInterval(setCdInterval);
-            renderBac
-        })
-    }
-    )
+            renderBackToStart();
+
+        });
+
+    }, 1000);
 
 }
